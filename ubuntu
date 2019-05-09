@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+echo "Este script irá configurar rapidamente a pós-instalação do Ubuntu."
+echo "Por favor, aguarde a finalização."
+
+echo "A aplicar motd... Por favor, aguarde."
+wget https://raw.githubusercontent.com/djprmf/ubuntu-change-motd/master/motd
+bash motd
+
+echo "A aplicar hostname... Por favor, aguarde."
+wget https://raw.githubusercontent.com/djprmf/ubuntu-change-hostname/master/hostchange
+bash hostname7
+
+echo "Tarefas concluidas com sucesso"
+echo "Por favor, reinicie o sistema."
