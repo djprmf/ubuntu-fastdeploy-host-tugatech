@@ -1,5 +1,14 @@
 #!/usr/bin/env bash
 
+# This script was created for the Host TugaTech servers
+# https://host.tugatech.com.pt
+#
+# Is used to fast deploy new servers based in ay Ubuntu Distro.
+# The script execute two commands
+# 1- Create a new MOTD from Host TugaTech in the server
+# 2- Change the hostname to a valid domain.
+# Can be safely removed if not needed, or used to easly change the details of your installation
+
 echo "Este script irá configurar rapidamente a pós-instalação do Ubuntu."
 echo "Por favor, aguarde a finalização."
 
@@ -13,3 +22,8 @@ bash hostchange
 
 echo "Tarefas concluidas com sucesso"
 echo "Por favor, reinicie o sistema."
+
+# THE END
+# HOST TUGATECH
+# HTTPS://HOST.TUGATECH.COM.PT
+# HOST@TUGATECH.COM.PT
