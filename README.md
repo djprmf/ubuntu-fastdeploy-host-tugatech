@@ -1,5 +1,11 @@
 # Ubuntu - Script to Fast Deploy
+
 Fast deploy of the scripts to configure Ubuntu servers in Host TugaTech
+
+This script will help fast deploy new instance of Ubuntu Servers on Host TugaTech.
+
+He changes the MOTD, hostname and apply some pre-configuration to the servers.
+
 
 Ubuntu (all versions)
 ```
